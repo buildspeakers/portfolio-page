@@ -1,0 +1,25 @@
+body {
+    color: $bodyText;
+}
+
+header {
+    height: 100vh;
+    min-height: 300px;
+    background-color: $headerBg;
+    color: $headerText;
+    display: flex;
+    .headerText{
+        margin: auto;
+    }
+}
+
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bio-wrap {
+    max-width: 30em;
+    margin: auto;
+}
