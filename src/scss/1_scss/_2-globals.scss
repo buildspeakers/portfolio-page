@@ -23,3 +23,22 @@ header {
     max-width: 30em;
     margin: auto;
 }
+
+
+.projects-bg {
+    background-color: rgb(241, 241, 241);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;    
+}
+
+.projects__project {
+    height: 200px;
+    margin-top: 30px;
+    flex-basis: 30%;
+    background-color: #fff;   
+}
