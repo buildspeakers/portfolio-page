@@ -20,8 +20,7 @@ gulp.task('compileSass', () => {
 
 // reload
 gulp.task('reload', () => {
-    browserSync.reload();
-    done();
+    browserSync.reload();    
 })
 
 // compile sass and reload
